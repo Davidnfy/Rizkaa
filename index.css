@@ -1,0 +1,83 @@
+/* Style Umum */
+body {
+    font-family: "PT Serif", serif;
+    background-color: #ffe6f2; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+header {
+    background-color: #ff99cc; /* Warna latar belakang header */
+    padding: 20px; /* Padding di dalam header */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk header */
+    border-radius: 10px; /* Sudut melengkung */
+    width: 100%; /* Lebar penuh */
+    position: fixed; /* Posisi tetap di bagian atas */
+    top: 0; /* Di bagian atas halaman */
+    z-index: 1000; /* Di atas elemen lain */
+}
+
+h1 {
+    color: white; /* Warna teks header */
+    font-size: 1.5em; /* Ukuran font */
+    margin: 0; /* Menghilangkan margin */
+}
+
+section {
+    padding-top: 100px; /* Padding untuk ruang header */
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: column; /* Susunan kolom */
+    align-items: center; /* Pusatkan konten */
+}
+
+.teks-index {
+    margin-top: 20px; /* Jarak atas untuk teks */
+}
+
+h2, p {
+    color: #333; /* Warna teks */
+    font-size: 1.5em; /* Ukuran font */
+    margin: 10px 0; /* Margin vertikal */
+}
+
+.love {
+    color: #ff66b2; /* Warna untuk hati */
+    font-size: 2em; /* Ukuran font untuk hati */
+    margin: 10px 0; /* Margin untuk jarak */
+}
+
+.pink-button {
+    background-color: #ff66b2; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+    font-size: 16px; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+    text-decoration: none; /* Tanpa garis bawah */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.pink-button:hover {
+    background-color: #ff99cc; /* Warna saat hover */
+}
+
+footer {
+    background-color: #ff99cc; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    padding: 10px; /* Padding di dalam footer */
+    position: fixed; /* Posisi tetap di bagian bawah */
+    bottom: 0; /* Di bagian bawah halaman */
+    width: 100%; /* Lebar penuh */
+}
+
+footer p {
+    color: white;
+    margin: 0; /* Menghilangkan margin */
+    font-size: 1em; /* Ukuran font footer */
+}
+
+.bold {
+    font-weight: bold;
+}
